@@ -48,3 +48,12 @@ button:hover {
   background-color: #b99470;
   box-shadow: 0px 0px 10px 3px #b99470;
 }
+
+@media (max-width: 641px) {
+  body {
+    height: 150vh;
+  }
+  .container {
+    height: 80%;
+  }
+}
